@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — DesignVault</title>
+  <meta name="description" content="DesignVault Privacy Policy explaining data collection, OAuth token security, and Pinterest API compliance.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-badge">📌</span>
+        <span>DesignVault</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="contact.html" class="btn-contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="legal-header">
+      <h1 class="legal-title">Privacy Policy</h1>
+      <p class="legal-meta">LAST UPDATED: NOVEMBER 3, 2026 | EFFECTIVE IMMEDIATELY</p>
+    </div>
+
+    <div class="legal-content">
+      <p>
+        At <strong>DesignVault</strong> ("we", "our", or "us"), accessible via our website and our publishing applications (including <em>PinStack Studio</em>), we respect your privacy and are committed to protecting the personal data of our visitors and application users.
+      </p>
+      <p>
+        This Privacy Policy explains how we collect, store, handle, and safeguard your information in full compliance with the <strong>Pinterest Developer Policy</strong>, the General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA).
+      </p>
+
+      <div class="highlight-box">
+        <strong>Key Commitment:</strong> DesignVault does NOT sell, rent, monetize, or trade any personal information, Pinterest user data, or API access tokens to data brokers, advertising networks, or third parties under any circumstances.
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>We only collect the minimum information necessary to provide our services and operate our publishing tools:</p>
+      <ul>
+        <li>
+          <strong>Contact Information:</strong> If you reach out through our contact channels, we receive your name, email address (e.g. <code>hemangakalita89@gmail.com</code>), and the contents of your message.
+        </li>
+        <li>
+          <strong>Technical Website Logs:</strong> Standard anonymous server metadata (such as browser type, device category, referring URL, and timestamp) collected solely for security, performance optimization, and site uptime verification.
+        </li>
+        <li>
+          <strong>Pinterest API & OAuth Tokens:</strong> When you connect our publishing tools to your Pinterest account, Pinterest provides an authorized OAuth 2.0 access token, token expiration details, and basic profile identifier (user ID and public username). We do <em>never</em> receive or store your Pinterest password.
+        </li>
+      </ul>
+
+      <h2>2. How Pinterest OAuth Data is Used & Stored</h2>
+      <p>
+        DesignVault strictly adheres to Pinterest's Developer Terms of Service and API Guidelines. Pinterest API access is utilized exclusively for the following authorized operations:
+      </p>
+      <ul>
+        <li><strong>Reading Board Lists:</strong> Fetching public board names and IDs so the authenticated user can map pin categories to relevant boards.</li>
+        <li><strong>Publishing Pins:</strong> Uploading user-provided imagery, titles, descriptions, destination URLs, and tagged topics directly to the user's selected Pinterest boards at designated scheduled times.</li>
+        <li><strong>Secure Token Storage:</strong> All OAuth access tokens and refresh tokens are stored exclusively on secure private databases and local encrypted storage. Tokens are never exposed publicly, logged in client-side code, or accessible to outside unauthorized entities.</li>
+      </ul>
+
+      <h2>3. Data Sharing & Third-Party Disclosure</h2>
+      <p>
+        We do not share any user data with external entities except as strictly required to execute core platform functionality:
+      </p>
+      <ul>
+        <li><strong>Pinterest Platform:</strong> Necessary API payloads (images, pin titles, board identifiers) are transmitted over encrypted TLS/HTTPS directly to official Pinterest endpoints (<code>api.pinterest.com</code>).</li>
+        <li><strong>Hosting & Infrastructure:</strong> Our public website is hosted on GitHub Pages, and our application backends utilize encrypted cloud databases (e.g., Neon PostgreSQL / SQLite) with isolated access controls.</li>
+        <li><strong>Legal Compliance:</strong> We will only disclose information if required to do so by applicable law, court order, or governmental regulation.</li>
+      </ul>
+
+      <h2>4. Data Retention, Revocation & Deletion Rights</h2>
+      <p>You maintain complete control over your data at all times:</p>
+      <ul>
+        <li>
+          <strong>Instant Access Revocation:</strong> You can disconnect and revoke DesignVault's API access at any moment directly from your Pinterest Account:
+          <br><em>Pinterest Profile &rarr; Settings &rarr; Apps / Connected Accounts &rarr; Revoke Access</em>.
+        </li>
+        <li>
+          <strong>Right to Deletion:</strong> Upon revocation or upon receiving a written request, all associated access tokens, queued pins, and activity logs are permanently purged from our database within 48 hours.
+        </li>
+        <li>
+          <strong>Data Inquiries:</strong> To request a full export or immediate deletion of any associated data, email our data controller directly at: <a href="mailto:hemangakalita89@gmail.com" style="color: var(--accent-gold); font-weight: 600;">hemangakalita89@gmail.com</a>.
+        </li>
+      </ul>
+
+      <h2>5. Security Measures</h2>
+      <p>
+        We implement industry-standard administrative, physical, and technical safeguards to preserve data integrity:
+      </p>
+      <ul>
+        <li>HTTPS/TLS encryption for all data in transit across our website and API integrations.</li>
+        <li>Environment-level secret management with zero plaintext credential exposure in source code repositories.</li>
+        <li>Strict least-privilege API scope authorization (requesting only <code>pins:read,write</code> and <code>boards:read,write</code>).</li>
+      </ul>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        Our services, architectural showcases, and applications are not intended for or directed toward children under 13 years of age. We do not knowingly collect personal information from minors.
+      </p>
+
+      <h2>7. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy periodically to reflect enhancements in our application workflows or updates to platform compliance rules. Any modifications will be posted to this page with an updated "Last Updated" revision date.
+      </p>
+
+      <h2>8. Contact Us</h2>
+      <p>
+        If you have any questions, compliance inquiries, or concerns regarding this Privacy Policy or our Pinterest API integration, please contact our team:
+      </p>
+      <div class="highlight-box">
+        <strong>DesignVault Studio — Data & Privacy Officer</strong><br>
+        Email: <a href="mailto:hemangakalita89@gmail.com" style="color: #FFFFFF; font-weight: 600;">hemangakalita89@gmail.com</a><br>
+        Website: <a href="https://hemangakalita02-pixel.github.io/designvault-site/" style="color: #FFFFFF;">https://hemangakalita02-pixel.github.io/designvault-site/</a><br>
+        Location: Assam, India
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <span class="brand-badge">📌</span>
+          <span>DesignVault</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 DesignVault. All rights reserved.</span>
+        <span>Compliant with Pinterest Developer Platform Policies</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

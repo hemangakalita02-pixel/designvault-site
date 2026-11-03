@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — DesignVault</title>
+  <meta name="description" content="Get in touch with DesignVault for architectural collaborations, media curation inquiries, and API compliance questions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-badge">📌</span>
+        <span>DesignVault</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="contact.html" class="btn-contact active">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="legal-header">
+      <h1 class="legal-title">Contact DesignVault</h1>
+      <p class="legal-meta">COLLABORATIONS, MEDIA INQUIRIES & PLATFORM COMPLIANCE</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Direct Info Card -->
+      <div class="contact-card">
+        <h3 style="font-size: 1.35rem; color: #FFFFFF; margin-bottom: 1.25rem;">Direct Communication</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">
+          Have questions about our architectural showcases, PinStack publishing workflows, or developer compliance? Our team is available to assist you.
+        </p>
+
+        <div style="margin-bottom: 1.75rem;">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">
+            Primary Inquiries & Compliance Email
+          </span>
+          <a href="mailto:hemangakalita89@gmail.com" style="color: #FFFFFF; font-size: 1.05rem; font-weight: 600; text-decoration: underline;">
+            hemangakalita89@gmail.com
+          </a>
+        </div>
+
+        <div style="margin-bottom: 1.75rem;">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">
+            Studio Location
+          </span>
+          <span style="color: #FFFFFF; font-size: 0.95rem;">
+            Assam, India
+          </span>
+        </div>
+
+        <div style="margin-bottom: 1.75rem;">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">
+            Response Time
+          </span>
+          <span style="color: var(--text-secondary); font-size: 0.95rem;">
+            Within 24–48 business hours
+          </span>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 2rem;">
+          <strong style="color: #FFFFFF;">Pinterest Developer Verification:</strong><br>
+          For platform auditing or security requests, please reference App Name: <em>DesignVault Studio</em> when sending verification tickets.
+        </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="contact-card">
+        <h3 style="font-size: 1.35rem; color: #FFFFFF; margin-bottom: 1.25rem;">Send a Message</h3>
+        <form onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been recorded and we will respond shortly.'); this.reset();">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-input" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="name@company.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Inquiry Subject</label>
+            <input type="text" class="form-input" placeholder="e.g. Design Collaboration or API Inquiry" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Your Message</label>
+            <textarea rows="5" class="form-textarea" placeholder="Describe your inquiry or question..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; border: none; cursor: pointer; margin-top: 0.5rem;">
+            Send Inquiry Message →
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <span class="brand-badge">📌</span>
+          <span>DesignVault</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 DesignVault. All rights reserved.</span>
+        <span>Independent Design & Visual Publishing Studio</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
