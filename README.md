@@ -48,6 +48,6 @@ When submitting your application on `developers.pinterest.com`:
 - **Company Name:** `DesignVault`
 - **Company Website or App Link:** `https://hemangakalita02-pixel.github.io/designvault-site/`
 - **Link to Privacy Policy:** `https://hemangakalita02-pixel.github.io/designvault-site/privacy.html`
-- **Contact Email:** `hemangakalita89@gmail.com`
+- **Contact:** Use on-site contact form or `contact@designvault.space`
 - **Developer Purpose:** `Personal API access (single, personal use)`
 - **Use Cases:** `Pin creation and scheduling`
